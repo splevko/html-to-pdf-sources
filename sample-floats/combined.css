@@ -1,4 +1,4 @@
-/* imported from style.scss 
+/* imported from style.scss
 */
 
 /**
@@ -33,7 +33,7 @@
   display: block;
   width: 100%;
   max-width: 100%; }
-/* imported from style.toolbar.scss 
+/* imported from style.toolbar.scss
 */
 
 /**
@@ -169,7 +169,7 @@
 
 .refreshIcon___nxhOA {
   color: #59B671; }
-/* imported from style.toolbar.scss 
+/* imported from style.toolbar.scss
 */
 
 /**
@@ -225,7 +225,7 @@
 .roundRight___paWRn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px; }
-/* imported from style.scss 
+/* imported from style.scss
 */
 
 /**
@@ -475,7 +475,7 @@
   left: 0;
   width: 100%;
   height: 100%; }
-/* imported from style.scss 
+/* imported from style.scss
 */
 
 /**
@@ -1152,7 +1152,7 @@
   height: 100%;
   cursor: pointer;
   opacity: 0; }
-/* imported from index.scss 
+/* imported from index.scss
 */
 
 /**
@@ -1215,15 +1215,22 @@
   opacity: 0; }
 
 .row___uxUKP {
-  display: flex;
-  margin: 0 -13px;
-  position: relative; }
-
-.rowItem___15lDi {
-  flex: 0 0 auto;
-  min-width: 0;
+  display: block;
   position: relative;
-  padding: 0 13px; }
+  margin: 0 -13px;
+}
+.row___uxUKP:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.rowItem___15lDi {
+  float: left;
+  display: block;
+  position: relative;
+  padding: 0 13px;
+  min-height: 1px;
+}
 
 .rowItem__resizing___2yka4 {
   cursor: ew-resize; }
@@ -1493,7 +1500,7 @@
   pointer-events: none;
   position: absolute;
   background: rgba(229, 229, 229, 0.2); }
-/* imported from new-page.scss 
+/* imported from new-page.scss
 */
 
 /**
@@ -1570,7 +1577,7 @@
 .active___1tQDu .menu___2ORJv [data-kit=button],
 .newPage___2FE3t:hover .menu___2ORJv [data-kit=button] {
   color: #2981F8; }
-/* imported from controls.scss 
+/* imported from controls.scss
 */
 
 /**
@@ -1657,7 +1664,7 @@
 .footerControls___1BtYM {
   bottom: 100%;
   margin-bottom: -1px; }
-/* imported from _header-footer-common.scss 
+/* imported from _header-footer-common.scss
 */
 
 @import "../../../Editor/config";
@@ -1710,7 +1717,7 @@
   background: $color-hover-highlight;
 }
 
-/* imported from index.scss 
+/* imported from index.scss
 */
 
 /**
@@ -2027,7 +2034,7 @@
 
 .justify___3Dpiv {
   text-align: justify !important; }
-/* imported from LinkPopover.scss 
+/* imported from LinkPopover.scss
 */
 
 /**
@@ -2122,7 +2129,7 @@
 
 .lowerLatinList___l1wsF {
   list-style-type: lower-latin; }
-/* imported from style.scss 
+/* imported from style.scss
 */
 
 /**
@@ -2176,7 +2183,7 @@
 
 .rest___qwQkE {
   font-weight: 500; }
-/* imported from EditorApp.scss 
+/* imported from EditorApp.scss
 */
 
 /**
@@ -2501,7 +2508,7 @@
 
 .grid_valign-bottom___2H6Mw {
   align-items: flex-end; }
-/* imported from style.scss 
+/* imported from style.scss
 */
 
 /**
@@ -2618,7 +2625,7 @@
 
 .input___1MidT {
   font: inherit; }
-/* imported from TabsStyles.scss 
+/* imported from TabsStyles.scss
 */
 
 /**
@@ -2674,7 +2681,7 @@
 
 .orange___3kzeS [data-kit="tabs-pointer"] {
   background: #E29D25; }
-/* imported from index.scss 
+/* imported from index.scss
 */
 
 /**
@@ -2833,7 +2840,7 @@
   pointer-events: none; }
   .optGroupHeader___3Wf07:first-child {
     padding-top: 15px; }
-/* imported from ToolboxStyles.scss 
+/* imported from ToolboxStyles.scss
 */
 
 /**
